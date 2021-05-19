@@ -20,7 +20,7 @@ class EmployeePayRollData {
       return this._profilePic;
     }
     set profilePic(profilePic) {
-      this._profilePic = profilePic;
+      this._profilePic = profilepic;
     }
   
     get gender() {
