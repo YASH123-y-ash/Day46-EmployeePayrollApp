@@ -1,5 +1,5 @@
-window.addEventListener('DOMCntentLoaded', (event) => {
-    const name = document.querySelector('.tet-error');
+window.addEventListener('DOMContentLoaded', (event) => {
+    const name = document.querySelector('.text-error');
     name.addEventListener('input', function() {
         if(name.nodeValue.length == 0){
             textError.textContent = "";
